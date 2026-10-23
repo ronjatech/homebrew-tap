@@ -6,25 +6,25 @@ cask "ronja" do
     end
   end
 
-  version "0.35.3"
+  version "0.35.4"
 
   on_macos do
     on_arm do
-      sha256 "fa30dfcc9737a80261c4a9687043c96c5027e9a78759b1b50d6a87e768a6f87e"
+      sha256 "d461ea713d66a36b9ba953ebb21f1407ff392e92e7e02eb313066e46590076db"
       url "https://github.com/ronjatech/ronja-cli/releases/download/v#{version}/ronja_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7c3cbb142c0915aad80eb9a253085f0ecf8f7a9c85ab8f66728b2c0727d93a76"
+      sha256 "d551483d9dc8345031efd8c724f169393d5b3ccdd03fef8fc4062cb95140a2ac"
       url "https://github.com/ronjatech/ronja-cli/releases/download/v#{version}/ronja_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "75adcae6361d9f0fff14a29bfc70083b6e8778012e7fe97853a34856ce38cd9d"
+      sha256 "c43844db607229d6c7aea7b79a5823c177a5d23a322df53d52704ba08aca639b"
       url "https://github.com/ronjatech/ronja-cli/releases/download/v#{version}/ronja_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "05c828d6c369ae368faa98fa6cc1936138b1e4e8269aeff48f735194bd4ef9c1"
+      sha256 "9fd9c43243fe5c34a4de30cb4e0293cf5a449ae490076963a27ddb548820ad1f"
       url "https://github.com/ronjatech/ronja-cli/releases/download/v#{version}/ronja_#{version}_linux_amd64.tar.gz"
     end
   end
